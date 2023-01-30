@@ -29,7 +29,7 @@ print(T)
 #圖表
 gph=graph(title='各速率下的分子數',xtitle="速率",ytitle="數量")
 Nv=[]
-Nvt=gvbars(delta=deltagv,x=1200)
+Nvt=gvbars(delta=deltagv)
 for i in range(50):
     Nv.append([20*(i+.5),2]) 
 
