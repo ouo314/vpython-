@@ -45,8 +45,7 @@ def v_cal(v1,v2,r1,r2):
     return (v1_new,v2_new)
 
 while t<10:
-    #動畫速度(越大越慢)
-    rate(10000)
+    rate(1000)
     b1.pos+=v1*dt
     b2.pos+=v2*dt
 
